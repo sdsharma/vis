@@ -576,7 +576,8 @@ div.vis-network div.vis-edit-mode div.vis-button {
 }
 
 div.vis-network div.vis-manipulation div.vis-button:hover {
-  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.20);
+    text-decoration: none;
+    background: rgb(238, 238, 238);
 }
 
 div.vis-network div.vis-manipulation div.vis-button:active {
@@ -584,7 +585,11 @@ div.vis-network div.vis-manipulation div.vis-button:active {
 }
 
 div.vis-network div.vis-manipulation div.vis-button.vis-back {
-  background-image: url("img/network/backIcon.png");
+  /*background-image: url("img/network/backIcon.png");*/
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(148, 96, 184);
+    border-image: initial;
 }
 
 div.vis-network div.vis-manipulation div.vis-button.vis-none:hover {
@@ -603,12 +608,16 @@ div.vis-network div.vis-manipulation div.notification {
 }
 
 div.vis-network div.vis-manipulation div.vis-button.vis-add {
-  background-image: url("img/network/addNodeIcon.png");
+  /*background-image: url("img/network/addNodeIcon.png");*/
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(96, 181, 21);
+    border-image: initial;
 }
 
 div.vis-network div.vis-manipulation div.vis-button.vis-edit,
 div.vis-network div.vis-edit-mode div.vis-button.vis-edit {
-  background-image: url("img/network/editIcon.png");
+  /*background-image: url("img/network/editIcon.png");*/
 }
 
 div.vis-network div.vis-edit-mode div.vis-button.vis-edit.vis-edit-mode {
@@ -617,16 +626,23 @@ div.vis-network div.vis-edit-mode div.vis-button.vis-edit.vis-edit-mode {
 }
 
 div.vis-network div.vis-manipulation div.vis-button.vis-connect {
-  background-image: url("img/network/connectIcon.png");
+  /*background-image: url("img/network/connectIcon.png");*/
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(0, 74, 112);
+  border-image: initial;
 }
 
 div.vis-network div.vis-manipulation div.vis-button.vis-delete {
-  background-image: url("img/network/deleteIcon.png");
+  /*background-image: url("img/network/deleteIcon.png");*/
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(235, 175, 166);
+    border-image: initial;
 }
 /* top right bottom left */
 div.vis-network div.vis-manipulation div.vis-label,
 div.vis-network div.vis-edit-mode div.vis-label {
-  margin: 0 0 0 23px;
   line-height: 25px;
 }
 div.vis-network div.vis-manipulation div.vis-separator-line {

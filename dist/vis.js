@@ -52206,7 +52206,7 @@ return /******/ (function(modules) { // webpackBootstrap
   // English
   exports['en'] = {
     edit: 'Edit',
-    del: 'Delete selected',
+    del: 'Delete Selected',
     back: 'Back',
     addNode: 'Add Node',
     addEdge: 'Add Edge',
