@@ -313,20 +313,16 @@ div.vis-tooltip {
   visibility: hidden;
   padding: 5px;
   white-space: nowrap;
-
-  font-family: verdana;
-  font-size:14px;
-  color:#000000;
-  background-color: #f5f4ed;
-
+  font-family: Metropolis,"Avenir Next","Helvetica Neue",Arial,sans-serif;
+  font-size:12px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
   border-radius: 3px;
-  border: 1px solid #808074;
-
+  border: 0;
   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
   pointer-events: none;
-
   z-index: 5;
 }
 
@@ -510,21 +506,12 @@ div.vis-color-picker input.vis-saturation-range {
 }*/
 div.vis-network div.vis-manipulation {
   box-sizing: content-box;
-
   border-width: 0;
-  border-bottom: 1px;
-  border-style:solid;
-  border-color: #d6d9d8;
-  background: #ffffff; /* Old browsers */
-  background: -moz-linear-gradient(top,  #ffffff 0%, #fcfcfc 48%, #fafafa 50%, #fcfcfc 100%); /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(48%,#fcfcfc), color-stop(50%,#fafafa), color-stop(100%,#fcfcfc)); /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top,  #ffffff 0%,#fcfcfc 48%,#fafafa 50%,#fcfcfc 100%); /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top,  #ffffff 0%,#fcfcfc 48%,#fafafa 50%,#fcfcfc 100%); /* Opera 11.10+ */
-  background: -ms-linear-gradient(top,  #ffffff 0%,#fcfcfc 48%,#fafafa 50%,#fcfcfc 100%); /* IE10+ */
-  background: linear-gradient(to bottom,  #ffffff 0%,#fcfcfc 48%,#fafafa 50%,#fcfcfc 100%); /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#fcfcfc',GradientType=0 ); /* IE6-9 */
-
-  padding-top:4px;
+  border-bottom: 0;
+  border-style: solid;
+  border-color: #000;
+  background: rgba(0, 0, 0, 0);
+  padding-top: 12px;
   position: absolute;
   left: 0;
   top: 0;
@@ -567,8 +554,9 @@ div.vis-network div.vis-close:hover {
 div.vis-network div.vis-manipulation div.vis-button,
 div.vis-network div.vis-edit-mode div.vis-button {
   float:left;
-  font-family: verdana;
-  font-size: 12px;
+  font-family: Metropolis,"Avenir Next","Helvetica Neue",Arial,sans-serif;
+	font-size: 12px;
+  color: #565656;
   -moz-border-radius: 15px;
   border-radius: 15px;
   display:inline-block;
