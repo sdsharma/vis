@@ -618,6 +618,7 @@ div.vis-network div.vis-manipulation div.vis-button.vis-add {
 div.vis-network div.vis-manipulation div.vis-button.vis-edit,
 div.vis-network div.vis-edit-mode div.vis-button.vis-edit {
   /*background-image: url("img/network/editIcon.png");*/
+  border: 1px solid #eb8d00;
 }
 
 div.vis-network div.vis-edit-mode div.vis-button.vis-edit.vis-edit-mode {

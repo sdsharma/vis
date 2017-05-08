@@ -1,12 +1,12 @@
 {
-  "name": "vis",
-  "version": "4.19.1",
+  "name": "vis-clarity",
+  "version": "1.0",
   "description": "A dynamic, browser-based visualization library.",
   "homepage": "http://visjs.org/",
   "license": "(Apache-2.0 OR MIT)",
   "repository": {
     "type": "git",
-    "url": "git://github.com/almende/vis.git"
+    "url": "git://github.com/sdsharma/vis.git"
   },
   "keywords": [
     "vis",
