@@ -560,8 +560,7 @@ div.vis-network div.vis-edit-mode div.vis-button {
   -moz-border-radius: 15px;
   border-radius: 15px;
   display:inline-block;
-  background-position: 0px 0px;
-  background-repeat:no-repeat;
+  background-color: #fafafa;
   height:24px;
   margin-left: 10px;
   /*vertical-align:middle;*/
@@ -666,8 +665,8 @@ div.network-navigation_wrapper {
 */
 
 div.vis-network div.vis-navigation div.vis-button {
-    width:34px;
-    height:34px;
+    width:40px;
+    height:40px;
     -moz-border-radius: 17px;
     border-radius: 17px;
     position:absolute;
@@ -684,11 +683,11 @@ div.vis-network div.vis-navigation div.vis-button {
 }
 
 div.vis-network div.vis-navigation div.vis-button:hover {
-    box-shadow: 0 0 3px 3px rgba(56, 207, 21, 0.30);
+    box-shadow: 0 0 3px 3px rgba(0,124,187, 0.30);
 }
 
 div.vis-network div.vis-navigation div.vis-button:active {
-    box-shadow: 0 0 1px 3px rgba(56, 207, 21, 0.95);
+    box-shadow: 0 0 1px 3px rgba(0,124,187, 0.95);
 }
 
 div.vis-network div.vis-navigation div.vis-button.vis-up {
@@ -722,9 +721,7 @@ div.vis-network div.vis-navigation div.vis-button.vis-zoomOut {
     right:55px;
 }
 div.vis-network div.vis-navigation div.vis-button.vis-zoomExtends {
-    background-image: url("img/network/zoomExtends.png");
-    bottom:50px;
-    right:15px;
+    display: none;
 }
 .vis-timeline {
   /*
