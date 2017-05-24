@@ -529,22 +529,7 @@ div.vis-network div.vis-edit-mode {
 /* FIXME: shouldn't the vis-close button be a child of the vis-manipulation div? */
 
 div.vis-network div.vis-close {
-  position:absolute;
-  right: 0;
-  top: 0;
-  width: 30px;
-  height: 30px;
-
-  background-position: 20px 3px;
-  background-repeat: no-repeat;
-  background-image: url("img/network/cross.png");
-  cursor: pointer;
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+  display: none;
 }
 
 div.vis-network div.vis-close:hover {
