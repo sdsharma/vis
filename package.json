@@ -1,6 +1,6 @@
 {
   "name": "vis-clarity",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A dynamic, browser-based visualization library.",
   "homepage": "http://visjs.org/",
   "license": "(Apache-2.0 OR MIT)",
